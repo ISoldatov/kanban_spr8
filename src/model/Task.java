@@ -71,7 +71,7 @@ public class Task {
 
     @Override
     public String toString() {
-        String result = "Task{" +
+        String result = this.getClass().getSimpleName()+"{" +
                 "id=" + id +
                 ", name='" + name + '\'';
 
